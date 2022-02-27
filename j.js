@@ -5,7 +5,7 @@ for (let i=0;i<10;i++){
     x.addEventListener('submit',(e)=>{
         e.preventDefault();
         let v=document.getElementById(`${i}`).value;
-        let c=document.querySelector('d').style.color
+        let c=document.querySelector('d').style.backgroundColor
         if (i==v){
             c='green';
             s++;
